@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import Kingfisher
 
 struct IconFieldView: View {
     
@@ -21,14 +22,18 @@ struct IconFieldView: View {
 }
 
 struct ContentView: View {
+    
+    private let imageUrl: String = "https://picsum.photos/275"
     var body: some View {
-        Color.red
-    }
+        CircleTextImageView(title: "Sea", imageUrl: imageUrl)
+        
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        IconFieldView()
+        ContentView()
             .previewInterfaceOrientation(.portrait)
     }
+}
+    
 }

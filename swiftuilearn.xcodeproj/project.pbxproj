@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		F4AFFB9928CCA96500A6BC66 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = F4AFFB9828CCA96500A6BC66 /* Kingfisher */; };
+		F4AFFB9D28CCB05F00A6BC66 /* CircleTextImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AFFB9C28CCB05F00A6BC66 /* CircleTextImageView.swift */; };
 		F4DB062728BFF9AF005EEB21 /* swiftuilearnApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DB062628BFF9AF005EEB21 /* swiftuilearnApp.swift */; };
 		F4DB062928BFF9AF005EEB21 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DB062828BFF9AF005EEB21 /* ContentView.swift */; };
 		F4DB062B28BFF9AF005EEB21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4DB062A28BFF9AF005EEB21 /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F4AFFB9C28CCB05F00A6BC66 /* CircleTextImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleTextImageView.swift; sourceTree = "<group>"; };
 		F4DB062328BFF9AF005EEB21 /* swiftuilearn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftuilearn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4DB062628BFF9AF005EEB21 /* swiftuilearnApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftuilearnApp.swift; sourceTree = "<group>"; };
 		F4DB062828BFF9AF005EEB21 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -34,6 +36,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F4AFFB9A28CCAE1E00A6BC66 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F4AFFB9B28CCB00600A6BC66 /* Circle */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F4AFFB9B28CCB00600A6BC66 /* Circle */ = {
+			isa = PBXGroup;
+			children = (
+				F4AFFB9C28CCB05F00A6BC66 /* CircleTextImageView.swift */,
+			);
+			path = Circle;
+			sourceTree = "<group>";
+		};
 		F4DB061A28BFF9AF005EEB21 = {
 			isa = PBXGroup;
 			children = (
@@ -53,6 +71,7 @@
 		F4DB062528BFF9AF005EEB21 /* swiftuilearn */ = {
 			isa = PBXGroup;
 			children = (
+				F4AFFB9A28CCAE1E00A6BC66 /* View */,
 				F4DB062628BFF9AF005EEB21 /* swiftuilearnApp.swift */,
 				F4DB062828BFF9AF005EEB21 /* ContentView.swift */,
 				F4DB062A28BFF9AF005EEB21 /* Assets.xcassets */,
@@ -146,6 +165,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4DB062928BFF9AF005EEB21 /* ContentView.swift in Sources */,
+				F4AFFB9D28CCB05F00A6BC66 /* CircleTextImageView.swift in Sources */,
 				F4DB062728BFF9AF005EEB21 /* swiftuilearnApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
