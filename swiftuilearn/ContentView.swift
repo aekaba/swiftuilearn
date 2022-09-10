@@ -48,15 +48,22 @@ struct ContentView: View {
                 Rectangle().foregroundColor(.blue)
                 Rectangle().foregroundColor(.cyan)
             }
-            
         }
-        
     }
     
-    
+    fileprivate func Groups() -> some View {
+        return VStack {
+            Group {
+                Image(systemName: "moon")
+                    .foregroundColor(.black)
+                Text("Ata Ben")
+                    .font(.headline)
+            }
+        }
+    }
     
     var body: some View {
-        FinalTestView()
+        Color.red
     }
 }
 
