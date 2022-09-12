@@ -13,6 +13,9 @@
 		F4AFFBA328CF3B2F00A6BC66 /* ModelListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AFFBA228CF3B2F00A6BC66 /* ModelListView.swift */; };
 		F4AFFBA528CF3B6000A6BC66 /* TweetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AFFBA428CF3B6000A6BC66 /* TweetModel.swift */; };
 		F4AFFBA728CF3ECE00A6BC66 /* TweetCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AFFBA628CF3ECE00A6BC66 /* TweetCards.swift */; };
+		F4AFFBAA28CF484000A6BC66 /* NavigationUsers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AFFBA928CF484000A6BC66 /* NavigationUsers.swift */; };
+		F4AFFBAC28CF486D00A6BC66 /* NavigationUserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AFFBAB28CF486D00A6BC66 /* NavigationUserModel.swift */; };
+		F4AFFBAE28CF4B8100A6BC66 /* UserViewDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AFFBAD28CF4B8100A6BC66 /* UserViewDetail.swift */; };
 		F4DB062728BFF9AF005EEB21 /* swiftuilearnApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DB062628BFF9AF005EEB21 /* swiftuilearnApp.swift */; };
 		F4DB062928BFF9AF005EEB21 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DB062828BFF9AF005EEB21 /* ContentView.swift */; };
 		F4DB062B28BFF9AF005EEB21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4DB062A28BFF9AF005EEB21 /* Assets.xcassets */; };
@@ -25,6 +28,9 @@
 		F4AFFBA228CF3B2F00A6BC66 /* ModelListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelListView.swift; sourceTree = "<group>"; };
 		F4AFFBA428CF3B6000A6BC66 /* TweetModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetModel.swift; sourceTree = "<group>"; };
 		F4AFFBA628CF3ECE00A6BC66 /* TweetCards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetCards.swift; sourceTree = "<group>"; };
+		F4AFFBA928CF484000A6BC66 /* NavigationUsers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationUsers.swift; sourceTree = "<group>"; };
+		F4AFFBAB28CF486D00A6BC66 /* NavigationUserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationUserModel.swift; sourceTree = "<group>"; };
+		F4AFFBAD28CF4B8100A6BC66 /* UserViewDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewDetail.swift; sourceTree = "<group>"; };
 		F4DB062328BFF9AF005EEB21 /* swiftuilearn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftuilearn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4DB062628BFF9AF005EEB21 /* swiftuilearnApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftuilearnApp.swift; sourceTree = "<group>"; };
 		F4DB062828BFF9AF005EEB21 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -63,6 +69,7 @@
 		F4AFFB9E28CE5B2400A6BC66 /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				F4AFFBA828CF481E00A6BC66 /* Navigation */,
 				F4AFFBA128CF3B1D00A6BC66 /* ModelList */,
 				F4AFFB9F28CE5B3F00A6BC66 /* SampleListView.swift */,
 			);
@@ -77,6 +84,16 @@
 				F4AFFBA628CF3ECE00A6BC66 /* TweetCards.swift */,
 			);
 			path = ModelList;
+			sourceTree = "<group>";
+		};
+		F4AFFBA828CF481E00A6BC66 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				F4AFFBA928CF484000A6BC66 /* NavigationUsers.swift */,
+				F4AFFBAB28CF486D00A6BC66 /* NavigationUserModel.swift */,
+				F4AFFBAD28CF4B8100A6BC66 /* UserViewDetail.swift */,
+			);
+			path = Navigation;
 			sourceTree = "<group>";
 		};
 		F4DB061A28BFF9AF005EEB21 = {
@@ -192,12 +209,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4AFFBAE28CF4B8100A6BC66 /* UserViewDetail.swift in Sources */,
 				F4AFFBA028CE5B3F00A6BC66 /* SampleListView.swift in Sources */,
 				F4DB062928BFF9AF005EEB21 /* ContentView.swift in Sources */,
+				F4AFFBAA28CF484000A6BC66 /* NavigationUsers.swift in Sources */,
 				F4AFFB9D28CCB05F00A6BC66 /* CircleTextImageView.swift in Sources */,
 				F4AFFBA528CF3B6000A6BC66 /* TweetModel.swift in Sources */,
 				F4AFFBA728CF3ECE00A6BC66 /* TweetCards.swift in Sources */,
 				F4DB062728BFF9AF005EEB21 /* swiftuilearnApp.swift in Sources */,
+				F4AFFBAC28CF486D00A6BC66 /* NavigationUserModel.swift in Sources */,
 				F4AFFBA328CF3B2F00A6BC66 /* ModelListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

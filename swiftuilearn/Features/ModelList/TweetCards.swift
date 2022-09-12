@@ -12,15 +12,15 @@ struct TweetCards: View {
     var body: some View {
         VStack(alignment: .leading) {
             Spacer()
-            Text(tweet.userName).font(.title)
-            Text("\(tweet.body)").font(.title3)
+            Text(tweet.userName).font(.title2)
+            Text("\(tweet.body)").font(.body)
             HStack {
                 Text("\(tweet.likeCount ?? 0)").fontWeight(.light)
                 Image(systemName: "heart.circle.fill").foregroundColor(.pink)
                 Spacer()
             }
             Spacer()
-        }.padding(10).frame( height: 100, alignment: .top).overlay(RoundedRectangle(cornerRadius: 25).stroke(.red)).padding(5)
+        }.padding(.leading, 20.0).frame( height: 100, alignment: .top).overlay(RoundedRectangle(cornerRadius: 25).stroke(.red)).padding(5)
     }
 }
 

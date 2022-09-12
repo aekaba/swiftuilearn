@@ -10,7 +10,8 @@ import SwiftUI
 struct ModelListView: View {
     var body: some View {
         VStack {
-            Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+            Text("Twitter")
+                .font(.title)
             List(TweetModel.tweets) { data in
                 TweetCards(tweet: data)
             }.listStyle(.sidebar)
