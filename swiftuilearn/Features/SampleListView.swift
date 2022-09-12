@@ -33,6 +33,7 @@ struct SampleListView: View {
                     Image(systemName: "info.circle.fill")
                     Text("About")
                     Spacer()
+                        
                     Image(systemName: "chevron.right.circle.fill")
                 }
                 Section{
