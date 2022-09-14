@@ -23,15 +23,15 @@ struct IconFieldView: View {
 
 struct ContentView: View {
     
-    private let imageUrl: String = "https://picsum.photos/275"
+    private let imageUrl: String = "https://picsum.photos/200"
     var body: some View {
-        CircleTextImageView(title: "Sea", imageUrl: imageUrl)
+        Enviroment()
         
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        Enviroment()
             .previewInterfaceOrientation(.portrait)
     }
 }
