@@ -25,13 +25,13 @@ struct ContentView: View {
     
     private let imageUrl: String = "https://picsum.photos/200"
     var body: some View {
-        Enviroment()
+        IconFieldView()
         
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        Enviroment()
+        IconFieldView()
             .previewInterfaceOrientation(.portrait)
     }
 }

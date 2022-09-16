@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F403CB5028D4A0EA00FA0174 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F403CB4F28D4A0EA00FA0174 /* UserModel.swift */; };
+		F403CB5228D4A11400FA0174 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F403CB5128D4A11400FA0174 /* UserService.swift */; };
+		F403CB5628D4A39600FA0174 /* Logging+AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F403CB5528D4A39600FA0174 /* Logging+AFError.swift */; };
+		F403CB5928D4A41E00FA0174 /* Logging in Frameworks */ = {isa = PBXBuildFile; productRef = F403CB5828D4A41E00FA0174 /* Logging */; };
+		F403CB5B28D4A66800FA0174 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F403CB5A28D4A66800FA0174 /* UserViewModel.swift */; };
+		F403CB5D28D4A78700FA0174 /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F403CB5C28D4A78700FA0174 /* UserView.swift */; };
 		F4AFFB9928CCA96500A6BC66 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = F4AFFB9828CCA96500A6BC66 /* Kingfisher */; };
 		F4AFFB9D28CCB05F00A6BC66 /* CircleTextImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AFFB9C28CCB05F00A6BC66 /* CircleTextImageView.swift */; };
 		F4AFFBA028CE5B3F00A6BC66 /* SampleListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AFFB9F28CE5B3F00A6BC66 /* SampleListView.swift */; };
@@ -23,9 +29,20 @@
 		F4DB062B28BFF9AF005EEB21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4DB062A28BFF9AF005EEB21 /* Assets.xcassets */; };
 		F4DB062E28BFF9AF005EEB21 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4DB062D28BFF9AF005EEB21 /* Preview Assets.xcassets */; };
 		F4F7CA8728D2347200C35C4D /* Enviroment.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F7CA8628D2347200C35C4D /* Enviroment.swift */; };
+		F4F7CA9528D23CCF00C35C4D /* RandomFoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F7CA9428D23CCF00C35C4D /* RandomFoxView.swift */; };
+		F4F7CA9728D2418900C35C4D /* FoxModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F7CA9628D2418900C35C4D /* FoxModel.swift */; };
+		F4F7CA9928D241C400C35C4D /* FoxService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F7CA9828D241C400C35C4D /* FoxService.swift */; };
+		F4F7CA9C28D2427E00C35C4D /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = F4F7CA9B28D2427E00C35C4D /* Alamofire */; };
+		F4F7CA9E28D2450500C35C4D /* FoxViewModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F7CA9D28D2450500C35C4D /* FoxViewModal.swift */; };
+		F4F7CAA128D2479800C35C4D /* ActivityIndicatorView in Frameworks */ = {isa = PBXBuildFile; productRef = F4F7CAA028D2479800C35C4D /* ActivityIndicatorView */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F403CB4F28D4A0EA00FA0174 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		F403CB5128D4A11400FA0174 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		F403CB5528D4A39600FA0174 /* Logging+AFError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Logging+AFError.swift"; sourceTree = "<group>"; };
+		F403CB5A28D4A66800FA0174 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		F403CB5C28D4A78700FA0174 /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
 		F4AFFB9C28CCB05F00A6BC66 /* CircleTextImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleTextImageView.swift; sourceTree = "<group>"; };
 		F4AFFB9F28CE5B3F00A6BC66 /* SampleListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleListView.swift; sourceTree = "<group>"; };
 		F4AFFBA228CF3B2F00A6BC66 /* ModelListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelListView.swift; sourceTree = "<group>"; };
@@ -42,6 +59,10 @@
 		F4DB062A28BFF9AF005EEB21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F4DB062D28BFF9AF005EEB21 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F4F7CA8628D2347200C35C4D /* Enviroment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enviroment.swift; sourceTree = "<group>"; };
+		F4F7CA9428D23CCF00C35C4D /* RandomFoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomFoxView.swift; sourceTree = "<group>"; };
+		F4F7CA9628D2418900C35C4D /* FoxModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoxModel.swift; sourceTree = "<group>"; };
+		F4F7CA9828D241C400C35C4D /* FoxService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoxService.swift; sourceTree = "<group>"; };
+		F4F7CA9D28D2450500C35C4D /* FoxViewModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoxViewModal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,12 +71,74 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4AFFB9928CCA96500A6BC66 /* Kingfisher in Frameworks */,
+				F4F7CAA128D2479800C35C4D /* ActivityIndicatorView in Frameworks */,
+				F403CB5928D4A41E00FA0174 /* Logging in Frameworks */,
+				F4F7CA9C28D2427E00C35C4D /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F403CB4A28D4A07D00FA0174 /* ReqResViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F403CB4E28D4A09A00FA0174 /* Service */,
+				F403CB4D28D4A09500FA0174 /* Model */,
+				F403CB4C28D4A09000FA0174 /* ViewModel */,
+				F403CB4B28D4A08A00FA0174 /* View */,
+			);
+			path = ReqResViewModel;
+			sourceTree = "<group>";
+		};
+		F403CB4B28D4A08A00FA0174 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F403CB5C28D4A78700FA0174 /* UserView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F403CB4C28D4A09000FA0174 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F403CB5A28D4A66800FA0174 /* UserViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F403CB4D28D4A09500FA0174 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F403CB4F28D4A0EA00FA0174 /* UserModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F403CB4E28D4A09A00FA0174 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				F403CB5128D4A11400FA0174 /* UserService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		F403CB5328D4A37100FA0174 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				F403CB5428D4A37400FA0174 /* Extension */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		F403CB5428D4A37400FA0174 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				F403CB5528D4A39600FA0174 /* Logging+AFError.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		F4AFFB9A28CCAE1E00A6BC66 /* View */ = {
 			isa = PBXGroup;
 			children = (
@@ -75,6 +158,8 @@
 		F4AFFB9E28CE5B2400A6BC66 /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				F403CB4A28D4A07D00FA0174 /* ReqResViewModel */,
+				F4F7CA8E28D23C9400C35C4D /* FoxViewModel */,
 				F4AFFBAF28D08F4800A6BC66 /* CustomTabView */,
 				F4AFFBA828CF481E00A6BC66 /* Navigation */,
 				F4AFFBA128CF3B1D00A6BC66 /* ModelList */,
@@ -132,6 +217,7 @@
 		F4DB062528BFF9AF005EEB21 /* swiftuilearn */ = {
 			isa = PBXGroup;
 			children = (
+				F403CB5328D4A37100FA0174 /* Core */,
 				F4AFFB9E28CE5B2400A6BC66 /* Features */,
 				F4AFFB9A28CCAE1E00A6BC66 /* View */,
 				F4DB062628BFF9AF005EEB21 /* swiftuilearnApp.swift */,
@@ -148,6 +234,49 @@
 				F4DB062D28BFF9AF005EEB21 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F4F7CA8E28D23C9400C35C4D /* FoxViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F4F7CA9228D23CB900C35C4D /* ViewModel */,
+				F4F7CA9128D23CB200C35C4D /* Service */,
+				F4F7CA9028D23CAA00C35C4D /* Model */,
+				F4F7CA8F28D23C9E00C35C4D /* View */,
+			);
+			path = FoxViewModel;
+			sourceTree = "<group>";
+		};
+		F4F7CA8F28D23C9E00C35C4D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F4F7CA9428D23CCF00C35C4D /* RandomFoxView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F4F7CA9028D23CAA00C35C4D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F4F7CA9628D2418900C35C4D /* FoxModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F4F7CA9128D23CB200C35C4D /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				F4F7CA9828D241C400C35C4D /* FoxService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		F4F7CA9228D23CB900C35C4D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F4F7CA9D28D2450500C35C4D /* FoxViewModal.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,6 +297,9 @@
 			name = swiftuilearn;
 			packageProductDependencies = (
 				F4AFFB9828CCA96500A6BC66 /* Kingfisher */,
+				F4F7CA9B28D2427E00C35C4D /* Alamofire */,
+				F4F7CAA028D2479800C35C4D /* ActivityIndicatorView */,
+				F403CB5828D4A41E00FA0174 /* Logging */,
 			);
 			productName = swiftuilearn;
 			productReference = F4DB062328BFF9AF005EEB21 /* swiftuilearn.app */;
@@ -199,6 +331,9 @@
 			mainGroup = F4DB061A28BFF9AF005EEB21;
 			packageReferences = (
 				F4AFFB9728CCA96500A6BC66 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				F4F7CA9A28D2427E00C35C4D /* XCRemoteSwiftPackageReference "Alamofire" */,
+				F4F7CA9F28D2479800C35C4D /* XCRemoteSwiftPackageReference "ActivityIndicatorView" */,
+				F403CB5728D4A41E00FA0174 /* XCRemoteSwiftPackageReference "swift-log" */,
 			);
 			productRefGroup = F4DB062428BFF9AF005EEB21 /* Products */;
 			projectDirPath = "";
@@ -227,17 +362,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4AFFBAE28CF4B8100A6BC66 /* UserViewDetail.swift in Sources */,
+				F4F7CA9728D2418900C35C4D /* FoxModel.swift in Sources */,
 				F4AFFBA028CE5B3F00A6BC66 /* SampleListView.swift in Sources */,
 				F4DB062928BFF9AF005EEB21 /* ContentView.swift in Sources */,
 				F4AFFBAA28CF484000A6BC66 /* NavigationUsers.swift in Sources */,
 				F4AFFB9D28CCB05F00A6BC66 /* CircleTextImageView.swift in Sources */,
+				F4F7CA9528D23CCF00C35C4D /* RandomFoxView.swift in Sources */,
+				F403CB5628D4A39600FA0174 /* Logging+AFError.swift in Sources */,
 				F4AFFBA528CF3B6000A6BC66 /* TweetModel.swift in Sources */,
 				F4AFFBA728CF3ECE00A6BC66 /* TweetCards.swift in Sources */,
+				F4F7CA9928D241C400C35C4D /* FoxService.swift in Sources */,
+				F403CB5D28D4A78700FA0174 /* UserView.swift in Sources */,
 				F4AFFBB128D08F5F00A6BC66 /* CustomTabView.swift in Sources */,
+				F4F7CA9E28D2450500C35C4D /* FoxViewModal.swift in Sources */,
 				F4DB062728BFF9AF005EEB21 /* swiftuilearnApp.swift in Sources */,
+				F403CB5228D4A11400FA0174 /* UserService.swift in Sources */,
 				F4AFFBB328D093CC00A6BC66 /* CustomTabIndex.swift in Sources */,
 				F4AFFBAC28CF486D00A6BC66 /* NavigationUserModel.swift in Sources */,
 				F4AFFBA328CF3B2F00A6BC66 /* ModelListView.swift in Sources */,
+				F403CB5028D4A0EA00FA0174 /* UserModel.swift in Sources */,
+				F403CB5B28D4A66800FA0174 /* UserViewModel.swift in Sources */,
 				F4F7CA8728D2347200C35C4D /* Enviroment.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -441,6 +585,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		F403CB5728D4A41E00FA0174 /* XCRemoteSwiftPackageReference "swift-log" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-log";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
 		F4AFFB9728CCA96500A6BC66 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
@@ -449,13 +601,44 @@
 				minimumVersion = 7.0.0;
 			};
 		};
+		F4F7CA9A28D2427E00C35C4D /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		F4F7CA9F28D2479800C35C4D /* XCRemoteSwiftPackageReference "ActivityIndicatorView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/exyte/ActivityIndicatorView";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		F403CB5828D4A41E00FA0174 /* Logging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F403CB5728D4A41E00FA0174 /* XCRemoteSwiftPackageReference "swift-log" */;
+			productName = Logging;
+		};
 		F4AFFB9828CCA96500A6BC66 /* Kingfisher */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = F4AFFB9728CCA96500A6BC66 /* XCRemoteSwiftPackageReference "Kingfisher" */;
 			productName = Kingfisher;
+		};
+		F4F7CA9B28D2427E00C35C4D /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F4F7CA9A28D2427E00C35C4D /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		F4F7CAA028D2479800C35C4D /* ActivityIndicatorView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F4F7CA9F28D2479800C35C4D /* XCRemoteSwiftPackageReference "ActivityIndicatorView" */;
+			productName = ActivityIndicatorView;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
