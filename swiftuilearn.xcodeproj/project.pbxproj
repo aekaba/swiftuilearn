@@ -13,6 +13,12 @@
 		F403CB5928D4A41E00FA0174 /* Logging in Frameworks */ = {isa = PBXBuildFile; productRef = F403CB5828D4A41E00FA0174 /* Logging */; };
 		F403CB5B28D4A66800FA0174 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F403CB5A28D4A66800FA0174 /* UserViewModel.swift */; };
 		F403CB5D28D4A78700FA0174 /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F403CB5C28D4A78700FA0174 /* UserView.swift */; };
+		F43F29EF28D6398600503FE6 /* MarketHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43F29EE28D6398600503FE6 /* MarketHomeView.swift */; };
+		F43F29F428D639BE00503FE6 /* MarketItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43F29F328D639BE00503FE6 /* MarketItem.swift */; };
+		F43F29F628D63C1900503FE6 /* MarketViewModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43F29F528D63C1900503FE6 /* MarketViewModal.swift */; };
+		F4A3319428D64637001983B2 /* MarketDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A3319328D64637001983B2 /* MarketDetailView.swift */; };
+		F4A3319628D6465E001983B2 /* MarketDeetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A3319528D6465E001983B2 /* MarketDeetailViewModel.swift */; };
+		F4A3319828D64D0B001983B2 /* Navigation+View.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A3319728D64D0B001983B2 /* Navigation+View.swift */; };
 		F4AFFB9928CCA96500A6BC66 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = F4AFFB9828CCA96500A6BC66 /* Kingfisher */; };
 		F4AFFB9D28CCB05F00A6BC66 /* CircleTextImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AFFB9C28CCB05F00A6BC66 /* CircleTextImageView.swift */; };
 		F4AFFBA028CE5B3F00A6BC66 /* SampleListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AFFB9F28CE5B3F00A6BC66 /* SampleListView.swift */; };
@@ -43,6 +49,12 @@
 		F403CB5528D4A39600FA0174 /* Logging+AFError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Logging+AFError.swift"; sourceTree = "<group>"; };
 		F403CB5A28D4A66800FA0174 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
 		F403CB5C28D4A78700FA0174 /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
+		F43F29EE28D6398600503FE6 /* MarketHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketHomeView.swift; sourceTree = "<group>"; };
+		F43F29F328D639BE00503FE6 /* MarketItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketItem.swift; sourceTree = "<group>"; };
+		F43F29F528D63C1900503FE6 /* MarketViewModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketViewModal.swift; sourceTree = "<group>"; };
+		F4A3319328D64637001983B2 /* MarketDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketDetailView.swift; sourceTree = "<group>"; };
+		F4A3319528D6465E001983B2 /* MarketDeetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketDeetailViewModel.swift; sourceTree = "<group>"; };
+		F4A3319728D64D0B001983B2 /* Navigation+View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Navigation+View.swift"; sourceTree = "<group>"; };
 		F4AFFB9C28CCB05F00A6BC66 /* CircleTextImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleTextImageView.swift; sourceTree = "<group>"; };
 		F4AFFB9F28CE5B3F00A6BC66 /* SampleListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleListView.swift; sourceTree = "<group>"; };
 		F4AFFBA228CF3B2F00A6BC66 /* ModelListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelListView.swift; sourceTree = "<group>"; };
@@ -135,8 +147,61 @@
 			isa = PBXGroup;
 			children = (
 				F403CB5528D4A39600FA0174 /* Logging+AFError.swift */,
+				F4A3319728D64D0B001983B2 /* Navigation+View.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		F43F29EB28D6395B00503FE6 /* Market */ = {
+			isa = PBXGroup;
+			children = (
+				F43F29ED28D6396A00503FE6 /* HomeDetail */,
+				F43F29EC28D6396500503FE6 /* Home */,
+			);
+			path = Market;
+			sourceTree = "<group>";
+		};
+		F43F29EC28D6396500503FE6 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				F43F29F228D639B200503FE6 /* Model */,
+				F43F29F128D639AA00503FE6 /* View */,
+				F43F29F028D6399E00503FE6 /* ViewModel */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		F43F29ED28D6396A00503FE6 /* HomeDetail */ = {
+			isa = PBXGroup;
+			children = (
+				F4A3319328D64637001983B2 /* MarketDetailView.swift */,
+				F4A3319528D6465E001983B2 /* MarketDeetailViewModel.swift */,
+			);
+			path = HomeDetail;
+			sourceTree = "<group>";
+		};
+		F43F29F028D6399E00503FE6 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F43F29F528D63C1900503FE6 /* MarketViewModal.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F43F29F128D639AA00503FE6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F43F29EE28D6398600503FE6 /* MarketHomeView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F43F29F228D639B200503FE6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F43F29F328D639BE00503FE6 /* MarketItem.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		F4AFFB9A28CCAE1E00A6BC66 /* View */ = {
@@ -158,6 +223,7 @@
 		F4AFFB9E28CE5B2400A6BC66 /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				F43F29EB28D6395B00503FE6 /* Market */,
 				F403CB4A28D4A07D00FA0174 /* ReqResViewModel */,
 				F4F7CA8E28D23C9400C35C4D /* FoxViewModel */,
 				F4AFFBAF28D08F4800A6BC66 /* CustomTabView */,
@@ -363,25 +429,31 @@
 			files = (
 				F4AFFBAE28CF4B8100A6BC66 /* UserViewDetail.swift in Sources */,
 				F4F7CA9728D2418900C35C4D /* FoxModel.swift in Sources */,
+				F4A3319828D64D0B001983B2 /* Navigation+View.swift in Sources */,
 				F4AFFBA028CE5B3F00A6BC66 /* SampleListView.swift in Sources */,
 				F4DB062928BFF9AF005EEB21 /* ContentView.swift in Sources */,
 				F4AFFBAA28CF484000A6BC66 /* NavigationUsers.swift in Sources */,
+				F4A3319428D64637001983B2 /* MarketDetailView.swift in Sources */,
 				F4AFFB9D28CCB05F00A6BC66 /* CircleTextImageView.swift in Sources */,
 				F4F7CA9528D23CCF00C35C4D /* RandomFoxView.swift in Sources */,
+				F43F29F628D63C1900503FE6 /* MarketViewModal.swift in Sources */,
 				F403CB5628D4A39600FA0174 /* Logging+AFError.swift in Sources */,
 				F4AFFBA528CF3B6000A6BC66 /* TweetModel.swift in Sources */,
 				F4AFFBA728CF3ECE00A6BC66 /* TweetCards.swift in Sources */,
 				F4F7CA9928D241C400C35C4D /* FoxService.swift in Sources */,
 				F403CB5D28D4A78700FA0174 /* UserView.swift in Sources */,
+				F43F29EF28D6398600503FE6 /* MarketHomeView.swift in Sources */,
 				F4AFFBB128D08F5F00A6BC66 /* CustomTabView.swift in Sources */,
 				F4F7CA9E28D2450500C35C4D /* FoxViewModal.swift in Sources */,
 				F4DB062728BFF9AF005EEB21 /* swiftuilearnApp.swift in Sources */,
 				F403CB5228D4A11400FA0174 /* UserService.swift in Sources */,
 				F4AFFBB328D093CC00A6BC66 /* CustomTabIndex.swift in Sources */,
+				F4A3319628D6465E001983B2 /* MarketDeetailViewModel.swift in Sources */,
 				F4AFFBAC28CF486D00A6BC66 /* NavigationUserModel.swift in Sources */,
 				F4AFFBA328CF3B2F00A6BC66 /* ModelListView.swift in Sources */,
 				F403CB5028D4A0EA00FA0174 /* UserModel.swift in Sources */,
 				F403CB5B28D4A66800FA0174 /* UserViewModel.swift in Sources */,
+				F43F29F428D639BE00503FE6 /* MarketItem.swift in Sources */,
 				F4F7CA8728D2347200C35C4D /* Enviroment.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
