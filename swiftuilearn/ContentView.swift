@@ -36,10 +36,27 @@ struct ContentView: View {
         }
     }
     
+    fileprivate func FinalTestView() -> some View {
+        return VStack{
+            
+            Rectangle().foregroundColor(.green)
+            Rectangle().foregroundColor(.red)
+            
+            Rectangle().foregroundColor(.purple)
+            
+            HStack{
+                Rectangle().foregroundColor(.blue)
+                Rectangle().foregroundColor(.cyan)
+            }
+            
+        }
+        
+    }
+    
     
     
     var body: some View {
-        StackView()
+        FinalTestView()
     }
 }
 
@@ -48,5 +65,6 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+            .previewInterfaceOrientation(.portrait)
     }
 }
