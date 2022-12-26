@@ -6,65 +6,34 @@
 //
 
 import SwiftUI
+import Kingfisher
 
-struct ContentView: View {
-    fileprivate func VerticalView() -> some View {
-        return VStack{
-            Spacer()
-            Text("1")
-            Spacer()
-            Text("2")
-            Spacer()
-        }
-    }
-    fileprivate func HorizontalView() -> some View {
-        return HStack{
-            Spacer()
-            Text("1")
-            Spacer()
-            Text("2")
-            Spacer()
-        }
-    }
-    fileprivate func StackView() -> some View {
-        return ZStack{
-            Spacer()
-            Color.pink
-            Spacer()
-            Text("2")
-            Spacer()
-        }
-    }
+struct IconFieldView: View {
     
-    fileprivate func FinalTestView() -> some View {
-        return VStack{
-            
-            Rectangle().foregroundColor(.green)
-            Rectangle().foregroundColor(.red)
-            
-            Rectangle().foregroundColor(.purple)
-            
-            HStack{
-                Rectangle().foregroundColor(.blue)
-                Rectangle().foregroundColor(.cyan)
-            }
-            
+    @State var textFieldValue: String = ""
+    
+    var body: some View{
+        VStack {
+            TextField(/*@START_MENU_TOKEN@*/"Placeholder"/*@END_MENU_TOKEN@*/, text: $textFieldValue)
+            Text(textFieldValue).font(.largeTitle)
+            Image(systemName: textFieldValue.lowercased()).frame(width: 150, height: 150, alignment: Alignment.leading)
         }
-        
-    }
-    
-    
-    
-    var body: some View {
-        FinalTestView()
     }
 }
 
-
+struct ContentView: View {
+    
+    private let imageUrl: String = "https://picsum.photos/275"
+    var body: some View {
+        CircleTextImageView(title: "Sea", imageUrl: imageUrl)
+        
+}
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
             .previewInterfaceOrientation(.portrait)
     }
+}
+    
 }

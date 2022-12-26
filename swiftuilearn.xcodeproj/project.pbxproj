@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F4AFFB9928CCA96500A6BC66 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = F4AFFB9828CCA96500A6BC66 /* Kingfisher */; };
+		F4AFFB9D28CCB05F00A6BC66 /* CircleTextImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AFFB9C28CCB05F00A6BC66 /* CircleTextImageView.swift */; };
+		F4AFFBA028CE5B3F00A6BC66 /* SampleListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AFFB9F28CE5B3F00A6BC66 /* SampleListView.swift */; };
+		F4AFFBA328CF3B2F00A6BC66 /* ModelListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AFFBA228CF3B2F00A6BC66 /* ModelListView.swift */; };
+		F4AFFBA528CF3B6000A6BC66 /* TweetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AFFBA428CF3B6000A6BC66 /* TweetModel.swift */; };
+		F4AFFBA728CF3ECE00A6BC66 /* TweetCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AFFBA628CF3ECE00A6BC66 /* TweetCards.swift */; };
+		F4AFFBAA28CF484000A6BC66 /* NavigationUsers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AFFBA928CF484000A6BC66 /* NavigationUsers.swift */; };
+		F4AFFBAC28CF486D00A6BC66 /* NavigationUserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AFFBAB28CF486D00A6BC66 /* NavigationUserModel.swift */; };
+		F4AFFBAE28CF4B8100A6BC66 /* UserViewDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AFFBAD28CF4B8100A6BC66 /* UserViewDetail.swift */; };
+		F4AFFBB128D08F5F00A6BC66 /* CustomTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AFFBB028D08F5F00A6BC66 /* CustomTabView.swift */; };
+		F4AFFBB328D093CC00A6BC66 /* CustomTabIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AFFBB228D093CC00A6BC66 /* CustomTabIndex.swift */; };
 		F4DB062728BFF9AF005EEB21 /* swiftuilearnApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DB062628BFF9AF005EEB21 /* swiftuilearnApp.swift */; };
 		F4DB062928BFF9AF005EEB21 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DB062828BFF9AF005EEB21 /* ContentView.swift */; };
 		F4DB062B28BFF9AF005EEB21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4DB062A28BFF9AF005EEB21 /* Assets.xcassets */; };
@@ -14,6 +25,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F4AFFB9C28CCB05F00A6BC66 /* CircleTextImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleTextImageView.swift; sourceTree = "<group>"; };
+		F4AFFB9F28CE5B3F00A6BC66 /* SampleListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleListView.swift; sourceTree = "<group>"; };
+		F4AFFBA228CF3B2F00A6BC66 /* ModelListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelListView.swift; sourceTree = "<group>"; };
+		F4AFFBA428CF3B6000A6BC66 /* TweetModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetModel.swift; sourceTree = "<group>"; };
+		F4AFFBA628CF3ECE00A6BC66 /* TweetCards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetCards.swift; sourceTree = "<group>"; };
+		F4AFFBA928CF484000A6BC66 /* NavigationUsers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationUsers.swift; sourceTree = "<group>"; };
+		F4AFFBAB28CF486D00A6BC66 /* NavigationUserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationUserModel.swift; sourceTree = "<group>"; };
+		F4AFFBAD28CF4B8100A6BC66 /* UserViewDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewDetail.swift; sourceTree = "<group>"; };
+		F4AFFBB028D08F5F00A6BC66 /* CustomTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabView.swift; sourceTree = "<group>"; };
+		F4AFFBB228D093CC00A6BC66 /* CustomTabIndex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabIndex.swift; sourceTree = "<group>"; };
 		F4DB062328BFF9AF005EEB21 /* swiftuilearn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftuilearn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4DB062628BFF9AF005EEB21 /* swiftuilearnApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftuilearnApp.swift; sourceTree = "<group>"; };
 		F4DB062828BFF9AF005EEB21 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -26,12 +47,69 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4AFFB9928CCA96500A6BC66 /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F4AFFB9A28CCAE1E00A6BC66 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F4AFFB9B28CCB00600A6BC66 /* Circle */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F4AFFB9B28CCB00600A6BC66 /* Circle */ = {
+			isa = PBXGroup;
+			children = (
+				F4AFFB9C28CCB05F00A6BC66 /* CircleTextImageView.swift */,
+			);
+			path = Circle;
+			sourceTree = "<group>";
+		};
+		F4AFFB9E28CE5B2400A6BC66 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				F4AFFBAF28D08F4800A6BC66 /* CustomTabView */,
+				F4AFFBA828CF481E00A6BC66 /* Navigation */,
+				F4AFFBA128CF3B1D00A6BC66 /* ModelList */,
+				F4AFFB9F28CE5B3F00A6BC66 /* SampleListView.swift */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		F4AFFBA128CF3B1D00A6BC66 /* ModelList */ = {
+			isa = PBXGroup;
+			children = (
+				F4AFFBA228CF3B2F00A6BC66 /* ModelListView.swift */,
+				F4AFFBA428CF3B6000A6BC66 /* TweetModel.swift */,
+				F4AFFBA628CF3ECE00A6BC66 /* TweetCards.swift */,
+			);
+			path = ModelList;
+			sourceTree = "<group>";
+		};
+		F4AFFBA828CF481E00A6BC66 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				F4AFFBA928CF484000A6BC66 /* NavigationUsers.swift */,
+				F4AFFBAB28CF486D00A6BC66 /* NavigationUserModel.swift */,
+				F4AFFBAD28CF4B8100A6BC66 /* UserViewDetail.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		F4AFFBAF28D08F4800A6BC66 /* CustomTabView */ = {
+			isa = PBXGroup;
+			children = (
+				F4AFFBB028D08F5F00A6BC66 /* CustomTabView.swift */,
+				F4AFFBB228D093CC00A6BC66 /* CustomTabIndex.swift */,
+			);
+			path = CustomTabView;
+			sourceTree = "<group>";
+		};
 		F4DB061A28BFF9AF005EEB21 = {
 			isa = PBXGroup;
 			children = (
@@ -51,6 +129,8 @@
 		F4DB062528BFF9AF005EEB21 /* swiftuilearn */ = {
 			isa = PBXGroup;
 			children = (
+				F4AFFB9E28CE5B2400A6BC66 /* Features */,
+				F4AFFB9A28CCAE1E00A6BC66 /* View */,
 				F4DB062628BFF9AF005EEB21 /* swiftuilearnApp.swift */,
 				F4DB062828BFF9AF005EEB21 /* ContentView.swift */,
 				F4DB062A28BFF9AF005EEB21 /* Assets.xcassets */,
@@ -83,6 +163,9 @@
 			dependencies = (
 			);
 			name = swiftuilearn;
+			packageProductDependencies = (
+				F4AFFB9828CCA96500A6BC66 /* Kingfisher */,
+			);
 			productName = swiftuilearn;
 			productReference = F4DB062328BFF9AF005EEB21 /* swiftuilearn.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +194,9 @@
 				Base,
 			);
 			mainGroup = F4DB061A28BFF9AF005EEB21;
+			packageReferences = (
+				F4AFFB9728CCA96500A6BC66 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = F4DB062428BFF9AF005EEB21 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,8 +223,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4AFFBAE28CF4B8100A6BC66 /* UserViewDetail.swift in Sources */,
+				F4AFFBA028CE5B3F00A6BC66 /* SampleListView.swift in Sources */,
 				F4DB062928BFF9AF005EEB21 /* ContentView.swift in Sources */,
+				F4AFFBAA28CF484000A6BC66 /* NavigationUsers.swift in Sources */,
+				F4AFFB9D28CCB05F00A6BC66 /* CircleTextImageView.swift in Sources */,
+				F4AFFBA528CF3B6000A6BC66 /* TweetModel.swift in Sources */,
+				F4AFFBA728CF3ECE00A6BC66 /* TweetCards.swift in Sources */,
+				F4AFFBB128D08F5F00A6BC66 /* CustomTabView.swift in Sources */,
 				F4DB062728BFF9AF005EEB21 /* swiftuilearnApp.swift in Sources */,
+				F4AFFBB328D093CC00A6BC66 /* CustomTabIndex.swift in Sources */,
+				F4AFFBAC28CF486D00A6BC66 /* NavigationUserModel.swift in Sources */,
+				F4AFFBA328CF3B2F00A6BC66 /* ModelListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +435,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F4AFFB9728CCA96500A6BC66 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F4AFFB9828CCA96500A6BC66 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F4AFFB9728CCA96500A6BC66 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F4DB061B28BFF9AF005EEB21 /* Project object */;
 }
